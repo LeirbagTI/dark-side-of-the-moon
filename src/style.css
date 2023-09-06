@@ -62,7 +62,7 @@ body {
     pointer-events: none;
 }
 
-#conteudo {
+#conteudo, #musicas{
     display: flex;
     color: white;
     justify-content: center;
@@ -87,4 +87,8 @@ a:hover{
     width: 100%;
     background-color: black;
     text-align: center;
+}
+
+#musicas {
+    padding-bottom: 20px;
 }
